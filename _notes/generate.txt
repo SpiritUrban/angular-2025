@@ -1,0 +1,3 @@
+src/app - корень для cli
+
+npm run ng g c layout/header
