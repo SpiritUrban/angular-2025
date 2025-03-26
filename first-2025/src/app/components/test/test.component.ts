@@ -17,8 +17,7 @@ export class TestComponent implements OnInit, AfterContentInit, AfterContentChec
   constructor() { }
 
   ngOnInit() {
-    console.log('TestComponent initialized');
-    console.log('---ngOnInit');
+    console.log('---ngOnInit - TestComponent initialized');
     for (let i = 0; i < 10000; i++) {
       const x = i;
       console.log('FOR', x);
