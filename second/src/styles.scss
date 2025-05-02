@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Global dark theme styles */
+body {
+  background-color: #121212; // Темный фон
+  color: #e0e0e0; // Светлый текст
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #bb86fc; // Цвет ссылок
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #1f1f1f; // Темный фон кнопки
+  color: #e0e0e0; // Светлый текст кнопки
+  border: 1px solid #333;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333; // Более светлый фон при наведении
+}
+
+input, textarea {
+  background-color: #1f1f1f; // Темный фон полей ввода
+  color: #e0e0e0; // Светлый текст
+  border: 1px solid #333;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #888; // Цвет плейсхолдера
+}
+
+header, footer {
+  background-color: #1f1f1f; // Темный фон для хедера и футера
+  color: #e0e0e0;
+  padding: 15px;
+  text-align: center;
+}
+
+.card {
+  background-color: #1e1e1e; // Темный фон карточек
+  color: #e0e0e0;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
