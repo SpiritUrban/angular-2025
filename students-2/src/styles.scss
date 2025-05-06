@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Global dark theme styles */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+}
+
+.nav-links a {
+  color: #bb86fc;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+<div>
+  <h1>Subjects</h1>
+  <input #subjectInput type="text" placeholder="Enter subject" />
+  <button (click)="addSubject(subjectInput.value)">Add Subject</button>
+  <ul>
+    <li *ngFor="let subject of subject$ | async">{{ subject }}</li>
+  </ul>
+
+    <button (click)="completeSubject()">Remove Last Subject</button>
+</div>
